@@ -56,6 +56,10 @@ submitBtn.addEventListener('click', () => {
           quiz.innerHTML = `
               <h2>You answered ${score}/${quizData.length} questions correctly</h2>
               <button onclick="location.reload()">Reload</button>
+              <h3>These questions are pulled from <br>
+              <a href="https://hobbylark.com/party-games/Free-Fun-100-Question-Quiz-3">Free-Fun-100-Question-Quiz</a>
+              </h3>
+              
           `
       }
   }
