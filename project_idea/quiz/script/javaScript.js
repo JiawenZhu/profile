@@ -75,12 +75,12 @@ submitBtn.addEventListener('click', () => {
                 <a href="https://hobbylark.com/party-games/Free-Fun-100-Question-Quiz-3">Free-Fun-100-Question-Quiz</a>
             </h3>    
           `
-            passToGoogleSheet(score, timeTakes);
+            passToGoogleSheet(score);
         }
     }
 });
 
-function passToGoogleSheet(score, timeTakes) {
+function passToGoogleSheet(score) {
     name = window.prompt("please enter your name", "peter");
     let date = new Date().toUTCString();
     fetch('https://v1.nocodeapi.com/evanapi/google_sheets/qWTHUWXJFlNMRjPP?tabId=score-and-times', {
