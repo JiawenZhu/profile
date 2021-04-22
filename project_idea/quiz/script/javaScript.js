@@ -9,12 +9,14 @@ const submitBtn = document.getElementById('submit');
 
 let currentQuiz = 0;
 let score = 0;
+let initialDate;
+let timeTakes;
 
 loadQuiz()
 
 function loadQuiz() {
     deselectAnswers()
-
+    initialDate = new Date();
     const currentQuizData = quizData[currentQuiz]
 
     questionEl.innerText = currentQuizData.question
@@ -52,6 +54,20 @@ submitBtn.addEventListener('click', () => {
         if (currentQuiz < quizData.length) {
             loadQuiz()
         } else {
+            let currentDate = new Date();        
+            setTimeout(function() {
+                timeTakes = Math.floor((currentDate - initialDate) / 1000 );
+            }, 1000);
+            console.table(timeTakes);
+            if(timeTakes <= 60){
+                timeTakes = `${timeTakes/ 3600}  + seconds`
+            }
+            else if(timeTakes <= 3600){
+                timeTakes = `${timeTakes/ 3600}  + minutes`
+            }else{
+                timeTakes = `${timeTakes/ 3600}  + hours`
+            }
+
             quiz.innerHTML =
                 `<h2>You answered ${score}/${quizData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>
@@ -59,15 +75,15 @@ submitBtn.addEventListener('click', () => {
                 <a href="https://hobbylark.com/party-games/Free-Fun-100-Question-Quiz-3">Free-Fun-100-Question-Quiz</a>
             </h3>    
           `
-            passToGoogleSheet(score);
+            passToGoogleSheet(score, timeTakes);
         }
     }
 });
 
-function passToGoogleSheet(score) {
-    let name = window.prompt("Please enter your name", "Peter");
+function passToGoogleSheet(score, timeTakes) {
+    name = window.prompt("please enter your name", "peter");
     let date = new Date().toUTCString();
-    fetch('https://v1.nocodeapi.com/evanapi/google_sheets/qWTHUWXJFlNMRjPP?tabId=student-quiz-score-test', {
+    fetch('https://v1.nocodeapi.com/evanapi/google_sheets/qWTHUWXJFlNMRjPP?tabId=score-and-times', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -77,7 +93,7 @@ function passToGoogleSheet(score) {
                 [
                     name,
                     score,
-                    date
+                    date,
                 ],
             ]
         )
