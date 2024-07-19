@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sell Your Equipment Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-container">
+    <h2>Tell us all about your equipment:</h2>
+    <form id="equipmentForm">
+        <div class="form-section your-information">
+            <h3>Your Information</h3>
+            <input type="text" id="name" name="name" placeholder="Name *" required>
+            <input type="text" id="company" name="company" placeholder="Company *" required>
+            <input type="email" id="email" name="email" placeholder="Email *" required>
+            <input type="email" id="email-confirm" name="email-confirm" placeholder="Email Confirmation *" required>
+            <input type="text" id="country" name="country" placeholder="Country *" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone">
+            <textarea id="additional-comments" name="additional-comments" placeholder="Additional Comments"></textarea>
+        </div>
+        <div class="form-section equipment-information">
+            <h3>Equipment Information</h3>
+            <input type="text" id="manufacturer" name="manufacturer" placeholder="Manufacturer">
+            <input type="text" id="model" name="model" placeholder="Model">
+            <input type="number" id="quantity" name="quantity" placeholder="Quantity">
+            <div class="equipment-condition">
+                <label><input type="radio" name="condition" value="working"> Working</label>
+                <label><input type="radio" name="condition" value="not-working"> Not Working</label>
+                <label><input type="radio" name="condition" value="unknown"> Unknown</label>
+            </div>
+            <textarea id="description" name="description" placeholder="Description / Condition"></textarea>
+            <button type="button" class="add-more-equipment">Add More Equipment</button>
+        </div>
+        <div class="form-section file-upload">
+            <label for="file-upload" class="file-upload-label">Upload Files</label>
+            <input type="file" id="file-upload" name="file-upload" multiple>
+        </div>
+        <div class="form-section form-submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>
