@@ -1,0 +1,32 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="320" height="320" fill="url(#bgGradient)"/>
+  
+  <!-- Person silhouette -->
+  <g transform="translate(160, 160)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="35" fill="rgba(255,255,255,0.3)"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="50" ry="60" fill="rgba(255,255,255,0.3)"/>
+    
+    <!-- Code symbols overlay -->
+    <text x="-40" y="-80" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">&lt;/&gt;</text>
+    <text x="25" y="-75" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.5)">{}</text>
+    <text x="-45" y="85" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">function()</text>
+    <text x="20" y="90" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.5)">λ</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="3" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="270" cy="80" r="2" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="40" cy="280" r="2.5" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="280" cy="250" r="3" fill="rgba(255,255,255,0.4)"/>
+</svg> 

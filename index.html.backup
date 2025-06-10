@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>duizhang protfollio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" />
+	<meta property="og:image" />
+	<meta property="og:url" />
+	<meta property="og:site_name" />
+	<meta property="og:description" />
+	<meta name="twitter:title" />
+	<meta name="twitter:image" />
+	<meta name="twitter:url" />
+	<meta name="twitter:card" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NX569D7S9M"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-NX569D7S9M');
+	</script>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<div class="profile-thumb" style="background: url(./images/1841691676043_.pic.jpg);">
+								</div>
+								<h1>
+									<span>Jiawen Zhu</span>
+								</h1>
+								<h3>
+									<span>Web Developer / Data Analyst</span>
+								</h3>
+								<p>
+								<ul class="fh5co-social-icons">
+									<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
+									<li>
+										<a href="https://www.linkedin.com/in/zhu-jiawen-1b166430/">
+											<i class="icon-linkedin2"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/zhu.jiawen">
+											<i class="icon-facebook2"></i>
+										</a>
+									</li>
+									<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->
+								</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="fh5co-about" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="info">
+							<li>
+								<span class="first-block">Full Name:</span>
+								<span class="second-block">Jiawen Zhu</span>
+							</li>
+							<li>
+								<span class="first-block">Phone:</span>
+								<span class="second-block">1(408)599-4164</span>
+							</li>
+							<li>
+								<span class="first-block">Email:</span>
+								<span class="second-block">zhujiawen519@gmail.com</span>
+							</li>
+							<!-- <li>
+								<span class="first-block">Website:</span>
+								<span class="second-block">
+									<a href="https://jiawenzhu.github.io/profile">Jiawen</a>
+								</span>
+							</li> -->
+						</ul>
+					</div>
+					<div class="col-md-8">
+						<h2>Hello There!</h2>
+						<p>I'm a web developer.</p>
+						<p>Bilingual U.S. citizen Looking for a challenging position as software engineer or AWS cloud
+							support/associate cloud architect, where I can leverage my technical and analytical skills
+							to offer meaningful insights for business decisions. </p>
+						<p>skills includes not limited to these:
+							Visual Studio Code, Unix/Linux, GitHub/GitLab, SQL, R, Python, Jupiter Notebook, AWS EC2,
+							S3, IAM, VPC, Rout 53, Azure Data Factory, DBT, MySQL, Dynamodb, Web Servers, HTTP/HTTPS, DNS, Security, ETL
+						</p>
+						<p>
+						<ul class="fh5co-social-icons">
+							<li>
+								<a href="https://www.linkedin.com/in/zhu-jiawen-1b166430/" target="_blank">
+									<i class="icon-linkedin2"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://1drv.ms/w/s!AlZJ5xbNH5c2y1nwhu74HOzao2yC" target="_blank">
+									<i class="icon-download">View My Resume 2024</i>
+								</a>
+							</li>
+							<li>
+								<a href="https://1drv.ms/w/s!AlZJ5xbNH5c2y1f_i1w6U644myTX" target="_blank">
+									<i class="icon-download"> Downlaod My Resume 2022</i>
+								</a>
+							</li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-skills" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Skills</h2>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="95">
+							<span>
+								<strong>HTML5</strong>99%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="93">
+							<span>
+								<strong>CSS3</strong>95%</span>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85">
+							<span>
+								<strong>javaScript</strong>95%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90">
+							<span>
+								<strong>R</strong>90%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85">
+							<span>
+								<strong>Python</strong>80%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85">
+							<span>
+								<strong>MySQL</strong>99%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85">
+							<span>
+								<strong>Tableau</strong>90%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85">
+							<span>
+								<strong>github</strong>99%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-work" class="fh5co-bg-dark">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>my work</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="./project_idea/github-profiles/index.html" target="_blank" class="work"
+							style="background-image: url(images/portfolio-1.jpg);">
+							<div class="desc">
+								<h3>github profile search</h3>
+								<span>This web app is buit using pure HTML/CSS and javaScript and ofcourse Github
+									API</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://jiawenzhu.github.io/profile/project_idea/quiz/quiz" target="_blank"
+							class="work" style="background-image: url(images/portfolio-2.jpg);">
+							<div class="desc">
+								<h3>quiz app</h3>
+								<span>This web app is buit using javaScript and google sheet API. I also use a server
+									called nocodeapi to replace node as backend server.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://public.tableau.com/app/profile/jiawen.zhu/viz/revenue_16912916798840/Dashboard1"
+							target="_blank" class="work" style="background-image: url(images/portfolio-3.jpg);">
+							<div class="desc">
+								<h3>Tableau Dashboard</h3>
+								<span>I built a Dashboard showcasing eBay sales datasets, sourced from the authentic
+									eBay 2022 sales data table.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="http://churchinurbana.org/" target="_blank" class="work"
+							style="background-image: url(images/portfolio-3.jpg);">
+							<div class="desc">
+								<h3>Church in Urbana</h3>
+								<span>I'm maintaing this website for the Church in Urbana. The chinese language part was
+									built by me. This site is built in wordpress</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-blog">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<p>What makes life dreary is the want of motive.(George Eliot) 沒有了目的，生活便郁闷无光。（乔治·埃略特）
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/hotairballoon.jpg);"></a>
+							<div class="blog-text">
+								<span class="posted_on">Mar. 15th 2019</span>
+								<h3>
+									<p href="#">share on wechat</p>
+								</h3>
+								<p>on wechat plateform</p>
+								<ul class="stuff">
+									<li>
+										<i class="icon-heart2"></i>10
+									</li>
+									<li>
+										<i class="icon-eye2"></i>50
+									</li>
+									<li>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/hackerThon.jpeg);"></a>
+							<div class="blog-text">
+								<span class="posted_on">Apr. 15th 2018</span>
+								<h3>
+									<p href="#">share on LinkedIn</p>
+								</h3>
+								<p>on LinkedIn plateform</p>
+								<ul class="stuff">
+									<li>
+										<i class="icon-heart2"></i>15
+									</li>
+									<li>
+										<i class="icon-eye2"></i>30
+									</li>
+									<li>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-blog animate-box">
+							<a href="#" class="blog-bg" style="background-image: url(images/2020picture_wall.jpg);"></a>
+							<div class="blog-text">
+								<span class="posted_on">Mar. 1th 2021</span>
+								<h3>
+									<p href="#">This is not shared, but in my photo gallery</p>
+								</h3>
+								<p>This is share here Lol</p>
+								<ul class="stuff">
+									<li>
+										<i class="icon-heart2"></i>0
+									</li>
+									<li>
+										<i class="icon-eye2"></i>1
+									</li>
+									<li>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop">
+				<i class="icon-arrow-up22"></i>
+			</a>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar Parallax -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Easy PieChart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- Main -->
+		<script src="js/main.js"></script>
+
+</body>
+
+</html>
