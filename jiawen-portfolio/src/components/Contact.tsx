@@ -111,7 +111,7 @@ const Contact = () => {
                 Connect With Me
               </h4>
               <a
-                href="https://www.linkedin.com/in/jiawen-zhu-394849192/"
+                href="https://www.linkedin.com/in/jiawenzhu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 px-6 py-3 bg-blue-600/20 text-blue-400 rounded-xl border border-blue-500/30 hover:bg-blue-600/30 hover:text-blue-300 transition-all font-medium"
@@ -130,14 +130,14 @@ const Contact = () => {
                 Resume
               </h4>
               <div className="flex flex-col space-y-3">
-                <a
-                  href="/Jiawen-Resume-2024.docx"
+                                <a 
+                  href="/Jiawen-Resume-2025.docx" 
                   download
                   className="inline-flex items-center space-x-2 text-purple-400 hover:text-purple-300 transition-colors"
                   style={{ fontSize: 'clamp(1rem, 2.5vw, 1.125rem)' }}
                 >
                   <Download size={18} />
-                  <span>Download Resume 2024</span>
+                  <span>Download Resume 2025</span>
                 </a>
                 <a
                   href="/Jiawen-Resume-2022.docx"

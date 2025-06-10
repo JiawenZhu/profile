@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Jiawen Zhu - Web Developer & Data Analyst",
   description: "Bilingual U.S. citizen looking for challenging positions as software engineer or AWS cloud support/associate cloud architect. Experienced in web development, data analysis, and cloud technologies.",
   keywords: ["Jiawen Zhu", "Web Developer", "Data Analyst", "Software Engineer", "AWS", "Cloud Architect", "JavaScript", "Python", "R", "Tableau", "MySQL"],
-  authors: [{ name: "Jiawen Zhu", url: "https://www.linkedin.com/in/zhu-jiawen-1b166430/" }],
+  authors: [{ name: "Jiawen Zhu", url: "https://www.linkedin.com/in/jiawenzhu/" }],
   creator: "Jiawen Zhu",
   openGraph: {
     type: "website",

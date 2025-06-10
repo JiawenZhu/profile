@@ -33,13 +33,13 @@ const Projects = () => {
       category: 'Data Analytics'
     },
     {
-      title: 'Church Website Development',
-      description: 'Maintaining and developing the Church in Urbana website, with Chinese language support built from scratch using WordPress.',
-      technologies: ['WordPress', 'PHP', 'CSS', 'Multilingual'],
-      link: 'http://churchinurbana.org/',
+      title: 'HealthWell – Healthcare Startup Platform',
+      description: 'Redesigned and deployed a responsive appointment booking platform for a health startup, improving UI/UX and increasing customer bookings by over 90% in just two months through user-centered design and accessibility improvements.',
+      technologies: ['React', 'Node.js', 'UI/UX Design', 'Responsive Design'],
+      link: 'http://healthwell.group/',
       icon: <Globe size={32} />,
       gradient: 'from-purple-500 to-pink-500',
-      category: 'CMS Development'
+      category: 'Healthcare Startup'
     }
   ]
 

@@ -98,7 +98,7 @@ const Navigation = () => {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="https://www.linkedin.com/in/jiawen-zhu-394849192/"
+              href="https://www.linkedin.com/in/jiawenzhu/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-xl text-gray-400 hover:text-blue-400 hover:bg-blue-600/10 transition-all duration-300"
@@ -109,7 +109,7 @@ const Navigation = () => {
             </motion.a>
             
             <motion.a
-              href="/Jiawen-Resume-2024.docx"
+              href="/Jiawen-Resume-2025.docx"
               download
               className="inline-flex items-center space-x-2 px-4 py-2 rounded-xl bg-purple-600/20 text-purple-400 border border-purple-500/30 hover:bg-purple-600/30 hover:text-purple-300 transition-all duration-300 text-sm font-medium"
               whileHover={{ scale: 1.05 }}
@@ -168,7 +168,7 @@ const Navigation = () => {
                 {/* Mobile Actions */}
                 <div className="pt-4 border-t border-purple-500/20 space-y-3">
                   <motion.a
-                    href="https://www.linkedin.com/in/jiawen-zhu-394849192/"
+                    href="https://www.linkedin.com/in/jiawenzhu/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 px-4 py-3 rounded-xl text-blue-400 bg-blue-600/10 border border-blue-500/30 font-medium"
@@ -184,7 +184,7 @@ const Navigation = () => {
                   </motion.a>
                   
                   <motion.a
-                    href="/Jiawen-Resume-2024.docx"
+                    href="/Jiawen-Resume-2025.docx"
                     download
                     className="flex items-center space-x-3 px-4 py-3 rounded-xl text-purple-400 bg-purple-600/10 border border-purple-500/30 font-medium"
                     initial={{ opacity: 0, x: -20 }}
